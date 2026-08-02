@@ -113,3 +113,28 @@ sectors, most notably electricity generation.
    alternative delivers nearly the same benefit.
 5. Country-level potential, even for a full national program, is small relative to
    the handful of sectors that dominate the global total.
+
+## Limitations
+
+**Difficulty score is Climate TRACE's own estimate, not independently validated.**
+The `difficulty_score` field reflects the dataset creators' judgment of implementation
+effort, capital cost, and impact tradeoffs, as documented in their methodology. This
+analysis treats that score as given and builds a priority ranking on top of it. It
+does not represent independently verified cost or feasibility data, and a different
+scoring methodology could produce a different ranking.
+
+**"Unspecified solution" entries carry a fixed difficulty score near 10 by
+construction, not because they were evaluated and found difficult.** This score
+functions more as a flag for "not yet characterized" than a genuine effort estimate.
+The analysis treats this consistently, but it is worth noting this is a data
+convention rather than a measured judgment.
+
+**Reduction potential figures are estimates, not guaranteed outcomes.** Climate
+TRACE describes these as current best estimates of what a strategy could achieve if
+implemented, based on their models. Actual results from implementing any strategy
+would depend on local conditions not captured in this dataset.
+
+**This analysis uses total reduction and difficulty only.** Other factors relevant
+to real-world prioritization, such as capital cost, regulatory environment, or
+regional infrastructure, are not part of the priority score and would need to be
+added for a decision-ready recommendation.
