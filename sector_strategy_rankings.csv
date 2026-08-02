@@ -1,0 +1,158 @@
+original_inventory_sector,strategy_name,total_reduction,n_sources,avg_difficulty,priority_score,rank_by_impact,rank_by_priority
+aluminum,Recycled feedstock for smelting,191534102.608121,163,3.4884718834355826,54904872.106777824,1,1
+aluminum,Benchmark-based retrofits,19134503.554816,62,5.07282193548387,3771964.3618815215,2,2
+aluminum,Unspecified solution,5904426.728478,26,6.029716884615384,979221.2207413821,3,3
+aluminum,shut down refineries,2960022.805786,16,7.2081549375,410649.1649321599,4,4
+bauxite-mining,Electrification of mine equipment,4760645.990959,185,7.286516291891892,653350.0784533252,1,1
+bauxite-mining,Unspecified solution,109949.364702,1,9.999620287148344,10995.353977921393,2,2
+biological-treatment-of-solid-waste-and-biogenic,CH4 Flaring,8023443.286216,0,10.0,802344.3286216,1,1
+cement,Carbon capture and storage,1124166929.203106,1206,6.584476352404643,170729890.88837132,1,1
+cement,Clinker substitution,139228185.781246,640,5.8061700484375,23979350.349670473,2,2
+cement,Unspecified solution,73827132.874872,1,9.999946892390687,7382752.495520718,3,3
+cement,shut down plant,36236458.582708,66,5.277224636363637,6866574.966889672,4,4
+cement,Alternative fuel usage,22620405.214446,248,5.742258362903225,3939287.2603191896,5,5
+cement,Benchmark-based retrofits,8128078.706273,46,7.218813608695652,1125957.691507932,6,6
+chemicals,Carbon capture and storage,279941391.040182,292,6.818051256849316,41058856.921757065,1,1
+chemicals,Unspecified solution,13078489.241326,114,9.97255355685461,1311448.3834821356,2,2
+chemicals,Renewable-driven Solvay process,100761.632674,6,4.931747166666667,20431.22432452353,3,3
+coal-mining,On-site recovery and use,478860511.241147,872,4.506361434633027,106263227.70315973,1,1
+coal-mining,VAM Oxidation,370182529.209277,1714,5.14604274387398,71935377.84931043,2,2
+coal-mining,Utilize underground mine methane,44435946.408663,617,6.3472018833063215,7000871.758236224,3,3
+coal-mining,Flare surface mine methane,18482920.337487,930,5.187719963440861,3562821.5223143674,4,4
+coal-mining,Capture and route fugitive methane in underground mines,3617333.142959,42,6.2606701904761906,577786.8874903732,5,5
+coal-mining,Capture and route fugitive methane in surface mines,761610.305374,16,6.3391598125,120143.7300684869,6,6
+coal-mining,Unspecified solution,18673.1126,0,10.0,1867.31126,7,7
+copper-mining,Electrification of mine equipment,80166986.282754,594,6.481735392255892,12368136.221440664,1,1
+copper-mining,Unspecified solution,316686.774745,4,9.998902708653922,31672.152832421467,2,2
+crop-residues,Residue management with low C:N under 25,91890422.243386,36040,5.787292346448391,15877964.468095055,1,1
+crop-residues,Unspecified solution,866.00343,0,10.0,86.600343,2,2
+cropland-fires,Residue Removal without burning,1390412581.812616,44168,4.396757496286904,316235904.0694945,1,1
+cropland-fires,Unspecified solution,1384.106197,1245,9.71921501375913,142.40925785061577,2,2
+domestic-aviation,Sustainable Aviation Fuel,23873706.539308,3986,5.784621349974913,4127099.2680292786,1,1
+domestic-shipping,Alternative fuel and energy sources,25210352.466697,5022,5.262229803464756,4790811.767684111,1,1
+domestic-shipping,Unspecified solution,75.459428,0,10.0,7.545942800000001,2,2
+domestic-wastewater-treatment-and-discharge,Intelligent management,33263107.330154,22349,3.535116874446284,9409337.374556845,1,1
+domestic-wastewater-treatment-and-discharge,Unspecified solution,32853304.828492,0,10.0,3285330.4828492003,2,2
+domestic-wastewater-treatment-and-discharge,Secondary Treatment to Advanced Treatment,10961742.522149,31953,6.325436324288798,1732962.2748801422,3,3
+domestic-wastewater-treatment-and-discharge,Treat untreated wastewater,3312480.038141,1221,5.671168625716626,584091.2617410359,4,4
+domestic-wastewater-treatment-and-discharge,Primary Treatment to Secondary Treatment,759722.135045,635,5.630969790551181,134918.5243934039,5,6
+domestic-wastewater-treatment-and-discharge,Cover lagoon,514283.930915,500,3.629155344,141708.987950944,6,5
+domestic-wastewater-treatment-and-discharge,Lagoon to Secondary Treatment,20104.469486,393,6.495003160305344,3095.3748581478517,7,7
+electricity-generation,Replace activity with solar generation,8898242694.937906,10833,4.811278827748546,1849454794.3507712,1,1
+electricity-generation,Unspecified solution,29250574.457117,0,10.0,2925057.4457117,2,2
+electricity-generation,Shut down electricity generation asset,82370.088744,1,6.073469,13562.280262564935,3,3
+electricity-generation,Clean generation matching,53661.833791,2,6.34992,8450.788953404137,4,4
+electricity-generation,Replace activity with wind generation,313.316328,1,6.983656,44.86422698941643,5,5
+enteric-fermentation-cattle-operation,Unspecified solution,60921439.054083,0,10.0,6092143.9054082995,1,2
+enteric-fermentation-cattle-operation,Feed additives in cattle diet ,29449368.328025,287475,3.8340421670858333,7681023.589369853,2,1
+enteric-fermentation-cattle-pasture,Feed additives in cattle diet,284544017.676654,42719,4.592630383599803,61956655.31734391,1,1
+enteric-fermentation-cattle-pasture,Unspecified solution,31.480705,0,10.0,3.1480705,2,2
+enteric-fermentation-other,Feed additives in ruminant diet,158426916.120038,0,10.0,15842691.6120038,1,1
+fluorinated-gases,Replace HFCs and HCFCs with low GWP alternatives ,404030526.91362,0,10.0,40403052.691362,1,1
+food-beverage-tobacco,Thermal management and waste heat recovery,46541156.032434,15027,5.630103381380182,8266483.380456995,1,1
+food-beverage-tobacco,Unspecified solution,11887811.984605,0,10.0,1188781.1984605,2,2
+food-beverage-tobacco,Benchmark-based retrofits,408434.325519,2,3.392506,120393.10336341336,3,3
+forest-land-clearing,Forest restoration,2596456854.368948,28387,5.782148529185895,449047069.8327978,1,1
+forest-land-clearing,Unspecified solution,16437.705144,0,10.0,1643.7705144,2,2
+forest-land-degradation,Forest restoration,164655402.749184,13615,5.784343213220713,28465704.174131148,1,1
+forest-land-degradation,Unspecified solution,0.001849,0,10.0,0.0001849,2,2
+forest-land-fires,Mitigate forest fire risk,2208303664.171448,8606,5.299263038577736,416719013.2090768,1,1
+forest-land-fires,Unspecified solution,0.00218,0,10.0,0.000218,2,2
+glass,Convert production configuration,3587598.650761,479,6.956455198329854,515722.23905392666,1,1
+glass,Unspecified solution,774620.099911,0,10.0,77462.0099911,2,2
+glass,Benchmark-based retrofits,101071.85063799999,2,3.4649710000000002,29169.609395865067,3,3
+heat-plants,Renewable power to heat,63600974.603988,0,10.0,6360097.4603988,1,1
+incineration-and-open-burning-of-waste,Domestic waste management infrastructure,19341376.52116,0,10.0,1934137.652116,1,1
+industrial-wastewater-treatment-and-discharge,Unspecified solution,14968262.435361,94,9.99637115372381,1497369.6159515926,1,1
+industrial-wastewater-treatment-and-discharge,Intelligent Management,853097.481371,351,4.588620071225072,185915.9111299532,2,2
+industrial-wastewater-treatment-and-discharge,Secondary Treatment to Advanced Treatment,783576.007076,789,5.570118015209125,140674.93811378093,3,3
+international-aviation,Sustainable Aviation Fuel,44668470.62489,1539,5.783232372969461,7723789.69824353,1,1
+international-shipping,Alternative fuel and energy sources,39306411.047644,4215,6.075242180308422,6469933.194605343,1,1
+international-shipping,Unspecified solution,756.842989,0,10.0,75.6842989,2,2
+iron-and-steel,Replace BF/BOF with H2-DRI/EAF_100%_green and renewables,1805676397.532613,330,7.720836090909091,233870577.78091016,1,1
+iron-and-steel,Benchmark-based retrofits,101929757.276678,120,6.410583416666666,15900231.016676914,2,2
+iron-and-steel,Increase scrap steel content to 100%,45153223.256161,272,5.860488290441176,7704686.199921044,3,3
+iron-and-steel,Unspecified solution,28058540.746537,161,9.985054761235372,2810053.7671027794,4,4
+iron-and-steel,Carbon capture and storage,4414669.023453,12,8.150007333333333,541676.6933935274,5,5
+iron-and-steel,Reduce overcapacity,250043.262314,2,7.019652499999999,35620.461598918184,6,6
+iron-and-steel,Replace natural gas in the Direct Reduced Iron – Electric Arc Furnace*(*EAF-DRI) with green hydrogen,50055.587686,1,8.228677,6083.066291944623,7,7
+iron-mining,Electrification of mine equipment,43965301.004537,395,6.827249308860759,6439680.025669569,1,1
+iron-mining,Unspecified solution,1397294.05991,1,9.999643683285303,139734.38496069796,2,2
+lime,Energy from biomass,133224667.49683699,1634,6.906824566095472,19288844.855104063,1,1
+lime,Unspecified solution,9425105.155604,0,10.0,942510.5155604,2,2
+manure-applied-to-soils,Inject slurry below surface,116389074.783423,38921,4.295512376172247,27095504.468581676,1,1
+manure-applied-to-soils,Unspecified solution,830.296047,0,10.0,83.02960470000001,2,2
+manure-left-on-pasture-cattle,Pasture rotation and nitrogen reducing fodder crops,123873714.439899,42706,4.25616516496511,29104536.51084155,1,1
+manure-left-on-pasture-cattle,Unspecified solution,1.4032010000000001,0,10.0,0.1403201,2,2
+manure-management-cattle-operation,Shift manure management method,96392694.87707,286496,4.011129689716436,24031308.467586447,1,1
+manure-management-cattle-operation,Unspecified solution,2685929.567184,0,10.0,268592.9567184,2,2
+manure-management-other,Slurry removal system,149008574.63698,0,10.0,14900857.463698,1,1
+non-residential-onsite-fuel-usage,Technology retrofit,231261626.632308,41368,5.523806507711274,41866351.81906989,1,1
+non-residential-onsite-fuel-usage,Unspecified solution,0.089954,0,10.0,0.0089954,2,2
+oil-and-gas-production,Unspecified solution,124782166.001307,133,5.888172172932331,21192003.619548548,1,1
+oil-and-gas-refining,Shut down coking unit,47882355.111603,214,7.039085481308412,6802354.544315424,1,1
+oil-and-gas-refining,Shut down refinery,33854452.589169,27,5.83666462962963,5800308.007643273,2,2
+oil-and-gas-refining,Cut gasoline output,31085075.281014,190,5.781068,5377047.161703339,3,3
+oil-and-gas-refining,Use green hydrogen,13140996.926174,44,7.20772825,1823181.5171686031,4,4
+oil-and-gas-refining,Unspecified solution,4275361.111129,108,9.589722899408285,445827.38792095886,5,6
+oil-and-gas-refining,Benchmark-based retrofits,3181561.979591,65,6.015662123076923,528879.7665989388,6,5
+oil-and-gas-refining,Convert to biorefinery,1262647.476123,19,5.6679381052631586,222770.15956658477,7,8
+oil-and-gas-refining,Do not reopen,822116.321829,1,3.39177,242385.63399906244,8,7
+oil-and-gas-refining,Steam electrification,4198.147765,3,6.649314666666666,631.3654828287066,9,9
+oil-and-gas-transport,Unspecified solution,16078871.386046,233,5.894693871244636,2727685.5655696713,1,1
+other-agricultural-soil-emissions,Enhanced rock weathering (ERW),194377266.383632,0,10.0,19437726.6383632,1,1
+other-chemicals,Unspecified solution,71205924.027868,32,9.99664149724487,7122984.65914705,1,1
+other-chemicals,Alternative fuel use and cleaner production,22186460.607618,407,4.622911213759214,4799240.041985715,2,2
+other-energy-use,Unspecified solution,231416067.24582,0,10.0,23141606.724581998,1,1
+other-fossil-fuel-operations,Unspecified solution,44625989.40691,0,10.0,4462598.940691,1,1
+other-manufacturing,Unspecified solution,188412157.592052,398,9.964628977574751,18908095.626648095,1,1
+other-metals,Unspecified solution,8073024.580003,418,9.954424835483282,810998.5974504632,1,1
+other-mining-quarrying,Electrification of mine equipment,39740685.317424,0,10.0,3974068.5317424,1,1
+other-onsite-fuel-usage,Unspecified solution,17256958.900974,0,10.0,1725695.8900974002,1,1
+other-solid-fuels,Unspecified solution,78312941.106114,0,10.0,7831294.1106114,1,1
+other-transport,Unspecified solution,18964537.475308,0,10.0,1896453.7475308,1,1
+petrochemical-steam-cracking,Reduce methane flaring,20627953.073518,219,4.712057876712329,4377695.183979875,1,1
+petrochemical-steam-cracking,Shut down plant,8620729.170173,12,5.78353425,1490564.2116968532,2,2
+petrochemical-steam-cracking,Benchmark-based retrofits,364892.859167,3,4.475525,81530.73866574312,3,3
+petrochemical-steam-cracking,Unspecified solution,0.000184,0,10.0,1.84e-05,4,4
+pulp-and-paper,Conversion to biomass fuels and optimization of equipment,36876179.381034,344,6.97524284883721,5286723.370094756,1,1
+pulp-and-paper,Unspecified solution,3852221.528196,0,10.0,385222.1528196,2,2
+railways,Electrification of railways,60795788.169828,0,10.0,6079578.8169828,1,1
+residential-onsite-fuel-usage,Technology retrofit,1601300070.070642,47669,5.591571442132203,286377467.7016426,1,1
+residential-onsite-fuel-usage,Unspecified solution,0.0053289999999999995,0,10.0,0.0005329,2,2
+rice-cultivation,Balanced fertilizer composition,147518478.207934,7019,3.5746597709075365,41267837.40609863,1,1
+rice-cultivation,Alternate wetting and drying,32471080.578924,2483,5.47680621908981,5928835.032677195,2,2
+rice-cultivation,Unspecified solution,3374201.458394,0,10.0,337420.1458394,3,3
+road-transportation,Transition to EVs,2929425234.934888,46820,4.765472531930799,614718732.5719386,1,1
+road-transportation,Unspecified solution,2080620.117463,756,7.963297900793651,261276.18775327216,2,2
+road-transportation,Benchmark-based retrofits,1028390.487571,164,6.114239554878049,168195.97569587076,3,3
+rock-quarrying,Electrification of mine equipment,1218807.593986,0,10.0,121880.7593986,1,1
+sand-quarrying,Electrification of mine equipment,569063.168025,0,10.0,56906.316802500005,1,1
+shrubgrass-fires,Grassland fire management,889425519.627381,7823,5.794138636456602,153504355.94190544,1,1
+shrubgrass-fires,Unspecified solution,0.002598,0,10.0,0.0002598,2,2
+solid-waste-disposal,Unspecified solution,47215536.480434,158,9.981494411110132,4730307.360376785,1,5
+solid-waste-disposal,Diversion and biocover (sanitary landfill),40434456.775371,1714,3.018876563010502,13393875.480304075,2,1
+solid-waste-disposal,Diversion and improve gas capture,35755194.347209,731,3.466363760601915,10314899.651789663,3,2
+solid-waste-disposal,Diversion and Management,23936411.040036,773,4.311060822768434,5552325.059674002,4,4
+solid-waste-disposal,Diversion and daily/intermediate cover (sanitary landfill),14246242.995408,2119,4.552785780084946,3129126.57953834,5,6
+solid-waste-disposal,Diversion and gas capture (sanitary landfill),13693124.625408,51,1.649068019607843,8303553.56030996,6,3
+solid-waste-disposal,Diversion and shut down,10431610.222184,6123,6.696076202678426,1557869.1022081506,7,7
+solid-waste-disposal,Benchmark-based retrofits,5283599.569161,465,4.1723249483870966,1266344.2168385016,8,8
+solid-waste-disposal,Diversion and biocover (controlled dumpsite),780942.079671,527,4.099785318785579,190483.6519348109,9,9
+solid-waste-disposal,Diversion and gas capture (controlled dumpsite),450548.875664,108,3.5070371388888892,128469.94708665798,10,10
+solid-waste-disposal,Do nothing,322204.103527,834,4.677880911270983,68878.2185007478,11,11
+solid-waste-disposal,Diversion and daily/intermediate cover (controlled dumpsite),23773.464472,52,4.539504096153847,5237.017958006112,12,12
+synthetic-fertilizer-application,Adopt nitrification/urease inhibitors to cut N₂O,197356814.677231,38866,4.195931555215355,47035279.789520234,1,1
+synthetic-fertilizer-application,Unspecified solution,2164.615463,0,10.0,216.4615463,2,2
+textiles-leather-apparel,Energy efficiency + heat pumps,19024759.336582,10736,4.485001261084203,4241862.650442814,1,1
+textiles-leather-apparel,Unspecified solution,1135370.920952,0,10.0,113537.0920952,2,2
+water-reservoirs,Withdrawal Height Adjustment,36197745.50261,1181,5.176786440304826,6992319.640768985,1,1
+water-reservoirs,Flow control,13805688.14056,3315,5.599457165912519,2465540.4499929138,2,2
+water-reservoirs,Aeration and oxygenation,3960679.265499,1996,5.500018912825651,720121.026541014,3,3
+water-reservoirs,Benchmark-based retrofits,2825780.247779,370,6.370648305405406,443562.43074686214,4,4
+water-reservoirs,shut down reservoir,282812.214822,3,5.879406333333333,48102.17202008888,5,5
+water-reservoirs,Unspecified solution,79800.579897,169,6.97621517679558,11438.950473092375,6,6
+wetland-fires,Reduce Wetland Fire Activity,20590102.542117,2178,5.7832966359045,3560270.869435826,1,1
+wetland-fires,Unspecified solution,0.001241,0,10.0,0.00012409999999999998,2,2
+wood-and-wood-products,Energy from biomass,8912397.289526,0,10.0,891239.7289526,1,1
+wood-and-wood-products,Unspecified solution,8.577577,0,10.0,0.8577577,2,2
