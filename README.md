@@ -3,7 +3,8 @@
 A data analysis project using the Climate TRACE Emission Reduction Solutions dataset to answer a
 practical question: when a sector or country has several possible ways to cut emissions, which one
 should actually come first, the option with the biggest raw impact, or the one that delivers strong
-impact for the least effort?
+impact for the least effort? The analysis is also served as a queryable API, containerized with
+Docker, so the ranking can be looked up on demand rather than only read as a static report.
 
 ## The Problem
 
@@ -35,6 +36,7 @@ Raw data is not included in this repo due to file size. Download it directly fro
 4. Rank strategies within each sector both ways and isolate where the two rankings disagree
 5. Visualize the tradeoff for the clearest example
 6. Repeat the sector and strategy breakdown for a single country (Nigeria) to check scale
+7. Serve the ranked results through a Flask API, containerized with Docker
 
 ## Key Findings
 
@@ -61,9 +63,26 @@ sectors is 192M tonnes per year, 0.641% of the global total. Its top three lever
 road transport, residue removal without burning in cropland fires, and carbon capture in cement
 production.
 
+## Running the API Locally
+
+Build and run the containerized API:
+
+```bash
+docker build -t climate-strategy-api -f docker/Dockerfile .
+docker run -p 5000:5000 climate-strategy-api
+```
+
+Then query it, for example:
+
+http://127.0.0.1:5000/strategies?sector=cement
+
+
+Returns ranked strategies for the given sector, sorted by priority score (impact adjusted for
+implementation difficulty).
+
 ## Tools
 
-Python, pandas, matplotlib, Google Colab
+Python, pandas, matplotlib, Google Colab, Flask, Docker
 
 ## Project Structure
 
@@ -73,6 +92,13 @@ outputs/
 sector_strategy_rankings.csv
 docs/
 findings.md
+api/
+app.py
+docker/
+Dockerfile
+k8s/
+terraform/
+
 
 ## Author
 
