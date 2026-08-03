@@ -4,7 +4,8 @@ A data analysis project using the Climate TRACE Emission Reduction Solutions dat
 practical question: when a sector or country has several possible ways to cut emissions, which one
 should actually come first, the option with the biggest raw impact, or the one that delivers strong
 impact for the least effort? The analysis is also served as a queryable API, containerized with
-Docker, so the ranking can be looked up on demand rather than only read as a static report.
+Docker and deployed to Kubernetes, so the ranking can be looked up on demand rather than only read
+as a static report.
 
 ## The Problem
 
@@ -25,7 +26,9 @@ Climate TRACE, `ers_plan_global_v5_9_0.csv` (July 2026 release). Source: https:/
 - All emissions expressed in a single standardized unit (CO2e, 100 year timeframe), so totals across
   sectors and gases can be directly compared
 
-Raw data is not included in this repo due to file size. Download it directly from the link above.
+Raw data is not included in this repo due to file size. Download it directly from the link above and
+place the extracted CSV at `outputs/sector_strategy_rankings.csv`, or regenerate it by running the
+analysis notebook end to end (see below).
 
 ## Method
 
@@ -36,7 +39,7 @@ Raw data is not included in this repo due to file size. Download it directly fro
 4. Rank strategies within each sector both ways and isolate where the two rankings disagree
 5. Visualize the tradeoff for the clearest example
 6. Repeat the sector and strategy breakdown for a single country (Nigeria) to check scale
-7. Serve the ranked results through a Flask API, containerized with Docker
+7. Serve the ranked results through a Flask API, containerized with Docker, deployed to Kubernetes
 
 ## Key Findings
 
@@ -63,26 +66,76 @@ sectors is 192M tonnes per year, 0.641% of the global total. Its top three lever
 road transport, residue removal without burning in cropland fires, and carbon capture in cement
 production.
 
-## Running the API Locally
+## Running This Project Locally
 
-Build and run the containerized API:
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/EseoheB/climate-emission-strategy-analysis.git
+cd climate-emission-strategy-analysis
+```
+
+### 2. Set up a Python environment
+
+Requires Python 3.12.
+
+```bash
+python -m venv venv
+source venv/Scripts/activate      # Windows
+# source venv/bin/activate         # Mac/Linux
+pip install -r requirements.txt
+```
+
+### 3. Run the analysis notebook
+
+Open `notebooks/climate_trace_analysis.ipynb` in Jupyter or Google Colab and run all cells. This
+reproduces the full analysis, including the concentration and priority ranking findings above, and
+regenerates `outputs/sector_strategy_rankings.csv`.
+
+### 4. Run the API directly (without Docker)
+
+```bash
+python api/app.py
+```
+
+Visit `http://127.0.0.1:5000/strategies?sector=cement`
+
+### 5. Run the API in Docker
 
 ```bash
 docker build -t climate-strategy-api -f docker/Dockerfile .
 docker run -p 5000:5000 climate-strategy-api
 ```
 
-Then query it, for example:
+Visit the same URL as above.
 
-http://127.0.0.1:5000/strategies?sector=cement
+### 6. Deploy to Kubernetes (via minikube)
 
+Requires [minikube](https://minikube.sigs.k8s.io/docs/start/) and Docker Desktop installed and
+running.
 
-Returns ranked strategies for the given sector, sorted by priority score (impact adjusted for
-implementation difficulty).
+```bash
+minikube start
+eval $(minikube docker-env)
+docker build -t climate-strategy-api -f docker/Dockerfile .
+kubectl apply -f k8s/deployment.yaml
+kubectl apply -f k8s/service.yaml
+minikube service climate-strategy-api-service
+```
+
+This opens the running service in your browser. Append `/strategies?sector=cement` to the URL it
+provides.
+
+Check deployment status at any time with:
+
+```bash
+kubectl get pods
+kubectl get services
+```
 
 ## Tools
 
-Python, pandas, matplotlib, Google Colab, Flask, Docker
+Python, pandas, matplotlib, Google Colab, Flask, Docker, Kubernetes (minikube)
 
 ## Project Structure
 
@@ -97,7 +150,9 @@ app.py
 docker/
 Dockerfile
 k8s/
-terraform/
+deployment.yaml
+service.yaml
+requirements.txt
 
 
 ## Author
