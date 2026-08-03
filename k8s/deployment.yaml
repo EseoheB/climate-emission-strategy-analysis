@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: climate-strategy-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: climate-strategy-api
+  template:
+    metadata:
+      labels:
+        app: climate-strategy-api
+    spec:
+      containers:
+        - name: climate-strategy-api
+          image: climate-strategy-api
+          imagePullPolicy: Never
+          ports:
+            - containerPort: 5000
