@@ -138,3 +138,9 @@ would depend on local conditions not captured in this dataset.
 to real-world prioritization, such as capital cost, regulatory environment, or
 regional infrastructure, are not part of the priority score and would need to be
 added for a decision-ready recommendation.
+
+**Base image vulnerabilities.** The `python:3.12-slim` base image used for containerization
+currently has known vulnerabilities flagged by Docker's vulnerability scanner, inherited from
+upstream Debian packages. These are outside the application code and will be resolved by future
+base image updates. For a production deployment, this would be addressed with regular image
+rebuilds and a vulnerability scanning step in CI/CD.
