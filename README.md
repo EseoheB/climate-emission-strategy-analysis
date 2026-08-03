@@ -139,21 +139,24 @@ Python, pandas, matplotlib, Google Colab, Flask, Docker, Kubernetes (minikube)
 
 ## Project Structure
 
-notebooks/
-climate_trace_analysis.ipynb
-outputs/
-sector_strategy_rankings.csv
-docs/
-findings.md
-api/
-app.py
-docker/
-Dockerfile
-k8s/
-deployment.yaml
-service.yaml
-requirements.txt
-
+```
+climate-emission-strategy-analysis/
+├── notebooks/
+│   └── climate_trace_analysis.ipynb
+├── outputs/
+│   └── sector_strategy_rankings.csv
+├── docs/
+│   └── findings.md
+├── api/
+│   └── app.py
+├── docker/
+│   └── Dockerfile
+├── k8s/
+│   ├── deployment.yaml
+│   └── service.yaml
+├── requirements.txt
+└── README.md
+```
 
 ## Author
 
